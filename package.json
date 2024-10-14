@@ -1,0 +1,10 @@
+{
+    "name": "my-fullstack-app",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix front-react\" \"npm run dev --prefix work-shop-mern\""
+    },
+    "devDependencies": {
+        "concurrently": "^7.0.0"
+    }
+}
